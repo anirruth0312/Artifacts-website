@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="text-center">
+        <br>
+        <h1><b><u>Enter the city name for weather information </b></u></h1>
+        <br>
+        <input value="" id="input">
+        <button type="button" class="btn btn-lg btn-success m-2" onclick=displayweather()>Submit </button>
+        <br>
+        <br>
+        <div class="display" id="lat">
+        </div>
+        <div class="display" id="lon">
+        </div>
+        <div class="display" id="temp">
+        </div>
+        <div class="display" id="pressure">
+        </div>
+        <div class="display" id="humidity">
+        </div>
+        <div class="display" id="timezone">
+        </div>
+        <div class="display" id="place">
+        </div>
+    </div>
+
+    <script src="/js/weather.js"></script>
+</body>
+<style>
+    input {
+        height: 42px;
+    }
+
+    .display {
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
+    }
+
+    body {
+        background: url("/images/weather.jpg");
+        width: 100%;
+    }
+</style>
+
+</html>

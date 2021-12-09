@@ -1,0 +1,66 @@
+#top{
+    background-color: black;
+}
+#weather{
+    
+    display: inline-flex;
+    margin-left: 330px;
+    font-size: 29.5px;
+
+}
+#time{
+    color: white;
+    width: 100%;
+    font-size: 22.5px;
+    margin-left: 20px;
+}
+#heading
+{
+    color: white;
+    width: 100%;
+    font-size: 42.5px;
+    margin: 0 0 0 400;
+    padding: 10px;
+    text-align: center;
+}
+/*for navbar contents */
+a{
+    text-decoration: none !important;
+}
+/*aside tag*/
+#description
+{
+    font-size: 17.5px;
+}
+#logo{
+    text-align: center;
+    height:300px;
+    width: 300px;
+    margin-top: 30px;
+}
+.leftside
+{
+    height: 100vh;
+    width: 150%;
+}
+.rightside
+{
+    height: 100vh;
+    width: 50%;
+    margin-left: 350px;
+    margin-right: 0;
+    padding: 25px;
+    background-color: grey;
+}
+
+.nav-categories:hover{
+    background-color: black;
+    color: white;
+}
+.cart:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.shop:hover{
+    background-color: black !important;
+}
