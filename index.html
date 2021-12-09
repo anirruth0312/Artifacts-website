@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <!-- Fonts= style -->
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/64401e54f7.js"></script>
+    <!-- font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap and materialize -->
+    <div id="top">
+        <span class="main" id="time">
+        </span>
+        <span style="font-family: Mystery Quest;" class="main" id="heading">
+            Vintage Reserves
+        </span>
+        <span class="weather" id="weather"><a style="color: azure;" target="_blank" href="weather.html">
+                <i class="fas fa-cloud"></i></a></span>
+        <a target="_blank" href="html/weather.html"><span class="weather" style="color:white;display: inline;"> Click
+                here to
+                see weather
+                info</span></a>
+    </div>
+    </h1>
+    <title>Vintage Reserves</title>
+
+    <style>
+        #Login-heading {
+            margin: 0 400 0 400;
+            padding: 10 2 10 2;
+        }
+
+        input {
+            border: 2px solid teal !important;
+        }
+
+        .inp {
+            display: inline-block;
+        }
+
+
+        .box {
+            font-size: 20px !important;
+            width: 250px !important;
+        }
+
+        .outer {
+            border: 3px solid teal;
+            margin: 0 235 0 235;
+        }
+
+        footer {
+            color: white;
+            font-size: 20px;
+            padding: 30 0 0 50;
+            background-color: black;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            display: inline-flex;
+        }
+    </style>
+
+</head>
+
+<body>
+    <br>
+    <section class="outer"><br>
+        <div class="container">
+            <div id="Login-heading" class=" white-text teal  card center">
+                <h2>
+                    Login or Sign-up
+                </h2>
+            </div>
+        </div>
+        <br>
+        <div class="center" id="login-data">
+            <form id="reg-form" method="Post" action='/login'>
+                <div class="inp">
+                    <h4 style="display: inline-block;">Email Id :- </h4><input name="email" id="email" class="box"
+                        type="email">
+                </div><br>
+                <div class="inp">
+                    <h4 style="display: inline-block;">Password :-</h4><input name="password" id="password" class="box"
+                        type="password">
+                </div><br>
+                <div class="inp teal"><input class="btn btn-md white-text" type="submit" value="Login">
+                </div>
+            </form>
+        </div><br>
+        <div class="center">
+
+            <div class="center"><a href="/registration"><button class=" btn btn-md grey black-text"><u> Not an existing
+                            user ?
+                            Click here to
+                            Sign-up</u></button></a></div><br>
+
+        </div>
+    </section><br><br>
+
+    <footer>
+        <p><i class="far fa-copyright"></i> Vintage Reserves
+        </p>
+        <img class="center" style="height:75px;width: 75px; " src="images/logo.png">
+    </footer>
+</body>
+
+</html>
